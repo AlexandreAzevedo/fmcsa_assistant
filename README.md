@@ -2,7 +2,7 @@
 
 **A RAG-based (Retrieval-Augmented Generation) system that answers compliance questions using official FMCSA documentation.**
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
 ![Gemini](https://img.shields.io/badge/AI-Gemini%202.5-orange)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
@@ -12,7 +12,8 @@ Commercial drivers and fleet managers struggle to navigate 1,000+ pages of compl
 
 ## 💡 The Solution
 This project ingests the official **FMCSA Electronic Field Operations Training Manual**, chunks it into semantic vectors, and uses a Large Language Model (Gemini 2.5) to provide cited, accurate answers.
-`![App Demo](demo_screenshot.png)`
+
+![App Demo](demo_screenshot.png)
 
 ### Key Features
 * **Hybrid RAG Architecture:** Combines vector search (ChromaDB) with LLM synthesis.
@@ -29,6 +30,9 @@ graph LR
     B -->|Context Chunks| D
     D -->|Context + Query| E[Gemini 2.5 LLM]
     E -->|Answer| C
+´´´
+
+
 
 🚀 Quick Start
 1. Clone the Repository
