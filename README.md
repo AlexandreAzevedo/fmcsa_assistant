@@ -1,4 +1,5 @@
 # 🚛 FMCSA Regulatory AI Assistant
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fmcsaassistant.streamlit.app/)
 
 **A RAG-based (Retrieval-Augmented Generation) system that answers compliance questions using official FMCSA documentation.**
 
